@@ -1,0 +1,56 @@
+<section class="bg-dark">
+   <div class="container"> 
+    <div class="py-2">
+        <h3 class="text-center text-white fw-bold mt-5"> Skills</h3>
+        <p class="text-center text-white lead mx-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil dignissimos dolorem tenetur ullam voluptate corporis incidunt, magnam ratione at rerum fugit unde esse quod asperiores fuga magni similique eveniet quisquam.</p>
+    </div>
+    <div class="row py-2 container">
+        <div class="col-md-6 container">
+            <h6 class="text-center text-white fw-bold mt-5">My focus</h6>
+            <hr class="border border-white w-30 ms-5">
+            <p class="text-center text-white lead mx-3">UI/UX Design</p>
+            <p class="text-center text-white lead mx-3">Responsive Design</p>
+            <p class="text-center text-white lead mx-3">Web Design</p>
+            <p class="text-center text-white lead mx-3">Mobile App Design</p>
+        </div>
+        <div class="col-md-6 align-items-center justify-content-center">
+
+         <div>
+            <h2>Progress Bar Demo</h2>
+            <ng-container *ngFor="let data of progressData">
+              <h3 class="text-start text-white">{{ data.content }}</h3>
+              <app-progress-bar [progress]="data.progress"></app-progress-bar>
+            </ng-container>
+          </div>
+
+   <!--     
+            <div class="progress my-3">
+                <div class="progress-bar bg-secondary text-start ps-3" style="width:70%">HTML</div>
+             </div>
+             <div class="progress my-3">
+                <div class="progress-bar bg-secondary text-start ps-3" style="width:60%">CSS</div>
+             </div>
+             <div class="progress my-3">
+                <div class="progress-bar bg-secondary text-start ps-3" style="width:40%">Javascript</div>
+             </div>
+             <div class="progress my-3">
+                <div class="progress-bar bg-secondary text-start ps-3" style="width:50%">Angular</div>
+             </div>
+             <div class="progress my-3">
+                <div class="progress-bar bg-secondary text-start ps-3" style="width:80%">Mysql</div>
+             </div>
+             <div class="progress my-3">
+                <div class="progress-bar bg-secondary text-start ps-3" style="width:90%">PHP</div>
+             </div>
+             <div class="progress my-3">
+                <div class="progress-bar bg-secondary text-start ps-3" style="width:80%">Bootstrap</div>
+             </div>
+             <div class="progress my-3">
+                <div class="progress-bar bg-secondary text-start ps-3" style="width:50%">Laravel</div>
+             </div>
+
+            -->       
+        </div>
+    </div>
+</div>
+</section>

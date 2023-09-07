@@ -1,0 +1,37 @@
+<section>
+   <div class="container"> 
+    <div class="row">
+        <div class="col m-5"> <h2>Portfolio</h2></div>
+    </div>
+   <!-- <div class="row text-center mb-3 justify-content-center align-items-center"> -->
+
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col" *ngFor="let title of cardTitles">
+              <app-card [title]="title"></app-card>
+            </div>
+        <!--
+        <div class="col-md-3 card" style="background-color: #767a7e;">
+                <h6 class="text-center text-white"> Web Design </h6>
+        </div>
+        <div class="col-md-3 bg-dark card mx-1">
+            <h6 class="text-center text-white"> Mobile Design </h6>
+        </div>
+        <div class="col-md-3 card" style="background-color: #767a7e;">
+            <h6 class="text-center text-white text-align"> Logo Design </h6>
+        </div>
+    </div>
+
+    <div class="row text-center justify-content-center align-items-center">
+        <div class="col-md-3 bg-dark card">
+            <h6 class="text-center text-white"> Web App Development </h6>
+        </div>
+        <div class="col-md-3 card mx-1" style="background-color: #767a7e;">
+            <h6 class="text-center text-white"> Mobile App Development </h6>
+        </div>
+        <div class="col-md-3 bg-dark card">
+            <h6 class="text-center text-white"> PWA Development </h6>
+        </div>
+    -->
+    </div>
+</div>
+</section>
